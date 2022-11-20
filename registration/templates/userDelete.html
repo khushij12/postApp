@@ -1,0 +1,9 @@
+{% load static%}
+
+<link rel="stylesheet" href="{%static 'style.css'%}">
+
+<form method="post">
+    {%csrf_token%}
+    <center>
+    <button>Delete this account</button></center>
+</form>

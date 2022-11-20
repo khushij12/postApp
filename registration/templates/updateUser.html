@@ -1,0 +1,9 @@
+{% load static%}
+
+<link rel="stylesheet" href="{%static 'style.css'%}">
+<div class="form-body">
+<form method="post">
+    {%csrf_token%}
+    {{form.as_p}}
+    <button>Update</button></div>
+</form>

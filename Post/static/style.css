@@ -1,0 +1,36 @@
+body{
+    /*background-color: darkorange; */
+    background-image: url("Images/Untitled.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    /* margin:70px; */
+}
+
+form{
+    /* margin-top: 150px;
+    margin-left: 250px; */
+    padding:6px 90px;
+    border-style: solid;
+    border-color: #fff;
+}
+.form-body{
+    margin: 100px 500px;
+    
+
+}
+
+button{
+    margin-left: 100px;
+}
+label{
+    width: 25%;
+}
+input[type=text]{
+    width: 75%;
+}
+input[type=email]{
+    width: 85%;
+}

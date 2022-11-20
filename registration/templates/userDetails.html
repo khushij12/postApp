@@ -1,0 +1,16 @@
+{% load static%}
+
+<link rel="stylesheet" href="{%static 'style.css'%}">
+
+<form method="post">
+    {%csrf_token%}
+    <!-- <p>Name: {{object.first_name}}</p> -->
+   
+    <ul>
+    {%for key,value in object.get_fields %}
+    <li>
+        {{key}}:{{value}}
+    </li>
+    {%endfor%}
+</ul>
+</form>
